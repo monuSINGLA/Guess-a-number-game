@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/9e9234eeb9.js" crossorigin="anonymous"></script>
+</head>
+<style>
+
+    #back-home{
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      color: #ffffff;
+      font-size: 35px;
+    }
+  </style>
+<body>
+    <a id="back-home" href="/main-project/main.html"><i class="fa-solid fa-house"></i></a>
+
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <p>Enter a number between 1 and 100:</p>
+
+        <div class="inputbox">
+            <input type="number" class="inputNumber" >
+            <button type="submit" class="btn">Submit Guess</button>
+        </div>
+
+        <div class="result">
+            <p>Chance left: <span class="chanceLeft">10</span ></p>
+            <p>Previous Guesses: <span class="previousGuesses"></span></p>
+           <span class="closeHigh"> </span> 
+
+           <div class="tryAgain">
+            <button class="playAgain ">Play Again</button>
+           </div>
+        </div>
+
+    </div>
+</body>
+</html>
